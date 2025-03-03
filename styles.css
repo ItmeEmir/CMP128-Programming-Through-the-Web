@@ -15,8 +15,8 @@ body{
   display:block;
   padding: 10px 20px;
   text-decoration: none;
-  color:red;
+  color:purple;
 }
 .navigation-menu a:hover{
-  background-color:aqua;
+  background-color:red;
 }

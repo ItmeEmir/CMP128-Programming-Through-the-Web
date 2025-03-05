@@ -1,10 +1,7 @@
-let fruits = [ "Grapes", "Apples", "Pears", "Oranges"];
-let fruit = fruits[0]; // first fruit 
-function logFirstFruit()
-{
-  let randomNumber= Math.floor(Math.random()*fruits.length);
-  console.log(fruits[randomNumber]);
+let mood = ["Happy","Neutral","Sad"]
+function displayMood(){
+    let randomMoodIndex = Math.floor(Math.random()*mood.length);
+let myMood=mood[randomMoodIndex]
+    let moodDivElement= document.getElementById("myMood");
+    moodDivElement.innerHTML=myMood;
 }
-logFirstFruit();
-
-
